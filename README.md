@@ -1,130 +1,58 @@
-# simple-bank-mangement-system-using-c
-🚀 Banking System in C
+# Library Management System
 
-A simple Banking System implemented in C, allowing users to log in, deposit money, withdraw money, check balance, and exit. This program uses functions, loops, conditional statements, operators, and strings without structures or arrays.
+A simple **Library Management System** built in **C** using only functions, loops, operators, and conditional statements.
 
-📌 Features
+## Features
+- **Add a Book**: Store book title and author.
+- **Borrow a Book**: Mark the book as borrowed.
+- **Return a Book**: Mark the book as available again.
+- **Check Book Status**: View book details and availability.
+- **Simple Menu Interface**: Interactive options for easy usage.
 
-🔐 User Login (Max 3 attempts)
+## How to Run
+1. Clone the repository or copy the source code.
+2. Open a terminal and compile using:
+   ```sh
+   gcc library_management.c -o library
+Run the program:
+sh
+Copy
+Edit
+./library
+Usage
+Choose an option from the menu:
+1: Add a new book
+2: Borrow a book
+3: Return a book
+4: Check book status
+5: Exit the program
+Follow the prompts to perform actions.
+The program will continue running until you choose Exit.
+Example Output
+mathematica
+Copy
+Edit
+Library Management System
+1. Add a Book
+2. Borrow a Book
+3. Return a Book
+4. Check Book Status
+5. Exit
+Enter your choice: 1
 
-💰 Deposit Money
+Enter book title: C Programming
+Enter author name: Dennis Ritchie
 
-🏧 Withdraw Money (with balance check)
-
-📊 Check Account Balance
-
-❌ Exit Program
-
-🛠️ Technologies Used
-
-C Programming
-
-Operators (+, - for balance calculations)
-
-Loops (while for login attempts & menu)
-
-Conditional Statements (if-else for validations)
-
-Strings (char arrays, strcmp() for login authentication)
-
-Functions (for different banking operations)
-
-🎯 How to Run in VS Code
-
-1️⃣ Install VS Code and Extensions
-
-Download and install Visual Studio Code.
-
-Install the C/C++ Extension from the Extensions Marketplace.
-
-Install MinGW (Windows users) for GCC Compiler:
-
-Download MinGW-w64
-
-Add the bin folder to your system's PATH (e.g., C:\mingw-w64\bin).
-
-Verify installation using:
-
-gcc --version🚀 Banking System in C
-
-A simple Banking System implemented in C, allowing users to log in, deposit money, withdraw money, check balance, and exit. This program uses functions, loops, conditional statements, operators, and strings without structures or arrays.
-
-📌 Features
-
-🔐 User Login (Max 3 attempts)
-
-💰 Deposit Money
-
-🏧 Withdraw Money (with balance check)
-
-📊 Check Account Balance
-
-❌ Exit Program
-
-🛠️ Technologies Used
-
-C Programming
-
-Operators (+, - for balance calculations)
-
-Loops (while for login attempts & menu)
-
-Conditional Statements (if-else for validations)
-
-Strings (char arrays, strcmp() for login authentication)
-
-Functions (for different banking operations)
-
-🎯 How to Run in VS Code
-
-1️⃣ Install VS Code and Extensions
-
-Download and install Visual Studio Code.
-
-Install the C/C++ Extension from the Extensions Marketplace.
-
-Install MinGW (Windows users) for GCC Compiler:
-
-Download MinGW-w64
-
-Add the bin folder to your system's PATH (e.g., C:\mingw-w64\bin).
-
-Verify installation using:
-
-2️⃣ Clone the Repository
-
-git clone https://github.com/your-username/banking-system-c.git
-cd banking-system-c
-
-3️⃣ Compile the Code
-
-gcc banking_system.c -o banking_system
-
-4️⃣ Run the Program
-
-./banking_system   # Linux/macOS
-banking_system.exe # Windows
-
-5️⃣ Run in VS Code Terminal
-
-Open VS Code.
-
-Open the project folder.
-
-Press Ctrl + Shift + ` to open the terminal.
-
-Compile and run as mentioned above.
-
-📌 Future Improvements
-
-🏦 Multi-user support
-
-🔄 Transaction history
-
-🔒 Stronger password encryption
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-💡 Contributions are welcome! Feel free to fork and improve. 🚀
+Book added successfully!
+Requirements
+GCC compiler (for Linux/Mac)
+MinGW (for Windows) or any C compiler
+Limitations
+Only one book can be stored at a time.
+No file storage (data resets after program exit).
+Future Enhancements
+Add multiple book storage using arrays or structures.
+Implement file handling to store books permanently.
+Add a fine system for overdue books.
+License
+This project is open-source and free to use.
